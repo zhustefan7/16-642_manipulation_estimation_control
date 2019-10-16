@@ -1,6 +1,6 @@
 global a b D miu y K C A B;
 
-A = [0,1,1,0;0,0,0,1;0,1,-3,0;0,2,-3,0]
+A = [0,0,1,0;0,0,0,1;0,1,-3,0;0,2,-3,0]
 B = [0;0;1;1]
 %original R Q parameters
 % R = 10
@@ -32,7 +32,7 @@ for j = 1:size(x0_all,2)
 end
 
 
-plotting with ode
+% plotting with ode
 global A B K
 for j = 1:size(x0_all,2)
     [t,xt] = ode45(@SS_Linear,time,x0_all(:,j));
