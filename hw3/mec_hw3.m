@@ -14,7 +14,7 @@ rot_z = eye(4);
 R = rot_y * rot_x * rot_z
 
 
-%% Question 3
+%% Question 4
 p = [1,0;0,1;-1,1;-1,-1;0,-1]'
 
 

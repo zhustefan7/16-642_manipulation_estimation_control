@@ -3,7 +3,6 @@ sys = tf([200],[1 22 141 202]);
 p = pole(sys)
 figure();
 step(sys);
-
 %% Q2 
 kp = 119;
 kd = 700;
